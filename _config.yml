@@ -1,0 +1,26 @@
+theme: jekyll-theme-cayman
+title: "Robotics Research Paper Fetcher"
+description: "AI-powered tool for intelligent research paper discovery and analysis"
+
+# GitHub repository info
+github:
+  repository_url: https://github.com/Chinmay-Prashanth/Robotics_Researcher_App
+  
+# SEO and social media
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Navigation
+header_pages:
+  - docs/QUICK_START.md
+  - docs/FEATURES.md
+  - examples/research_workflow.py
+
+# Analytics (optional)
+google_analytics: # Add your GA tracking ID if desired
+
+# Social links
+author:
+  name: "Chinmay Prashanth"
+  github: "Chinmay-Prashanth" 

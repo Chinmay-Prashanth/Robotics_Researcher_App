@@ -125,7 +125,7 @@ python main.py
 ### **Option 3: Standalone executable**
 ```bash
 python scripts/create_executable.py
-# Generates a portable .exe/.app that runs anywhere
+# Generates a portable .exe (Windows) or .app (macOS) for cross-platform use
 ```
 
 ### **🧪 Verify installation**
@@ -138,8 +138,6 @@ python -c "from research_dashboard import ResearchDashboard; print('✅ All syst
 
 ## 🎯 **Research categories covered**
 
-*Based on arXiv entries as of June 2025*
-
 | Domain | Papers Available | Key Topics |
 |--------|------------------|------------|
 | **🤖 Robotics (cs.RO)** | 10,000+ | Manipulation, Navigation, Control |
@@ -149,6 +147,8 @@ python -c "from research_dashboard import ResearchDashboard; print('✅ All syst
 | **⚙️ Systems & Control (eess.SY)** | 5,000+ | Control Theory, Optimization |
 | **🤝 Human-Computer Interaction (cs.HC)** | 3,000+ | HRI, Interfaces, Collaboration |
 | **💬 Natural Language Processing (cs.CL)** | 4,000+ | Robot Communication, Instructions |
+
+<sub>*Paper counts based on arXiv entries as of June 2025.</sub>
 
 ---
 
@@ -200,7 +200,7 @@ Robotics_Researcher_App/
 
 ### **Daily research routine**
 1. **Morning scan**: Search latest papers in your focus areas
-2. **Preliminary filtering using AI summaries**: Advanced analysis helps identify relevant papers
+2. **Preliminary filtering using AI summaries**: AI-assisted summaries help identify papers worth deeper review
 3. **Deep dive**: Read full papers that match your research needs
 4. **Knowledge building**: Export citations and insights to your reference manager
 
@@ -218,19 +218,17 @@ Robotics_Researcher_App/
 
 ---
 
-## 🚀 **Research impact stories**
+## 🚀 **Research impact: Why I built this tool**
 
-> *"This tool helped me discover 15 highly relevant papers in 10 minutes that would have taken me days to find manually. The AI summaries immediately showed me which papers to prioritize for my manipulation research."*
-> 
-> **— Robotics Researcher, Industry R&D**
+After **7 years of research experience** across university labs and corporate R&D, I realized how much time I was losing to inefficient literature discovery:
 
-> *"The trend analysis revealed an emerging research direction I hadn't noticed. This insight led to a successful grant proposal and new collaboration."*
-> 
-> **— Graduate Student, Robotics Lab**
+> *"In university research, I'd spend entire afternoons manually searching for papers related to my manipulation experiments. Finding 15 relevant papers took days of keyword hunting and abstract reading."*
 
-> *"Instead of spending 2 hours daily on paper searches, I now spend 15 minutes and get better results. This tool gave me my research time back."*
-> 
-> **— Principal Scientist, Tech Company**
+> *"During corporate R&D work, staying current with emerging robotics trends was crucial but time-consuming. I needed to quickly identify which research directions were gaining momentum for product roadmap planning."*
+
+> *"The final straw was when I missed a key paper that directly solved a problem I'd been working on for months. That paper existed for 6 months but never appeared in my manual searches due to different terminology."*
+
+**That's when I decided to build this tool** — to solve my own research workflow problems and get back to actual research instead of spending hours on literature hunting.
 
 ---
 
