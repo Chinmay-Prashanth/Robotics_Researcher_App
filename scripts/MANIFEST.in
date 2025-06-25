@@ -1,0 +1,16 @@
+include README.md
+include FEATURES.md
+include requirements.txt
+include requirements_gui.txt
+include *.py
+recursive-include papers *
+recursive-include summaries *
+exclude build_*.py
+exclude setup_cx.py
+exclude *.spec
+exclude test_*.py
+exclude demo_*.py
+global-exclude __pycache__
+global-exclude *.py[co]
+global-exclude .git*
+global-exclude .DS_Store 
